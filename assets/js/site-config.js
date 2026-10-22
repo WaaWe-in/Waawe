@@ -15,5 +15,6 @@
  */
 window.SITE_CONFIG = {
   formEndpoint: "https://formsubmit.co/ajax/Thewaawe@gmail.com",
+  formFallbackAction: "https://formsubmit.co/Thewaawe@gmail.com",
   formFields: { _template: "table", _captcha: "false" }
 };
