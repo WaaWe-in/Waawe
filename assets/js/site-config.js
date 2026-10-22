@@ -1,16 +1,19 @@
 /*
  * SITE SETTINGS — the only file you normally need to edit.
  *
- * FORMS: GitHub Pages is static hosting, so it can't receive form submissions by itself.
- * Create a free form endpoint and paste it below. Two popular free options:
+ * FORMS: the homepage contact form emails Thewaawe@gmail.com through FormSubmit.co (free, no account).
+ * FIRST TIME ONLY: after the site is live, submit the form once. FormSubmit emails an "Activate" link to
+ * that address; click it and all future enquiries arrive in the inbox.
+ *
+ * To switch to another service instead, replace formEndpoint. Alternatives:
  *
  *   • Formspree  (https://formspree.io)   → formEndpoint: "https://formspree.io/f/xxxxxxxx"
  *   • Web3Forms  (https://web3forms.com)  → formEndpoint: "https://api.web3forms.com/submit"
  *                                            formFields:   { access_key: "YOUR-ACCESS-KEY" }
  *
- * All three forms (homepage, Book a Call, Apply) use the same endpoint.
+ * The homepage contact form is the only form on the site.
  */
 window.SITE_CONFIG = {
-  formEndpoint: "",
-  formFields: {}
+  formEndpoint: "https://formsubmit.co/ajax/Thewaawe@gmail.com",
+  formFields: { _template: "table", _captcha: "false" }
 };
